@@ -1,0 +1,85 @@
+#report #table_bc_cong {
+  border-collapse: collapse;
+  width: 100%;
+  margin-top: 10px;
+  font-size: 10px;
+  background-color: white;
+}
+
+#report #table_bc_cong td {
+  border: 1px solid black;
+  text-align: left;
+  padding: 3px;
+  font-size: 7px;
+}
+
+#report #table_bc_cong th {
+  border: 1px solid black;
+  text-align: left;
+  padding: 5px;
+  font-size: 9px;
+}
+
+.name {
+  border: 1px solid black;
+  text-align: left;
+  padding: 5px;
+  font-size: 9px !important;
+}
+
+.cong_1 {
+  font-size: 5px;
+}
+
+#date_month,
+#cong {
+  text-align: center;
+}
+
+#report #table_bc_cong th {
+  font-weight: bold;
+  text-align: center;
+}
+
+#report {
+  background-color: white;
+  height: auto;
+}
+
+#report #table_bc_cong thead {
+  background-color: #d0d7de;
+}
+
+#report #tableHeader {
+  border-collapse: collapse;
+  width: 100%;
+  margin-top: 10px;
+  font-size: 13px;
+  background-color: white;
+}
+
+#report #table_bc_cong th #th1 {
+  /* text-align: center; */
+  width: 100px;
+}
+
+/* --------------------- */
+#report #table_1 {
+  border-collapse: collapse;
+  width: 100%;
+  margin-top: 10px;
+  font-size: 11px;
+  background-color: white;
+}
+
+#report #table_1 td,
+#report #table_1 th {
+  border-bottom: 1px solid #ddd;
+  text-align: left;
+  padding: 8px;
+  font-size: 16px;
+}
+
+#report #table_1 th {
+  font-weight: bold;
+}

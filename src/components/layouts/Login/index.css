@@ -1,0 +1,136 @@
+.Login {
+  height: 100vh;
+}
+.bgTop,
+.bgBottom {
+  width: 100%;
+  background-color: var(--main-color);
+}
+.bgTop {
+  height: 35%;
+  position: relative;
+}
+.bgBottom {
+  height: 5%;
+}
+.bgCenter {
+  width: 100%;
+  height: 60%;
+  background-color: #ffffff;
+  position: relative;
+}
+
+.bgTop ._boxTitle {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  background-color: #ffffff;
+  width: 400px;
+  height: 170px;
+  top: 40%;
+  right: 50%;
+  transform: translate(50%, -50%);
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgb(0 0 0 / 8%);
+  text-align: center;
+}
+.Login h1,
+.Login h2,
+.Login h4,
+.Login h5 {
+  color: var(--text-color);
+}
+
+.bgCenter ._boxLogin {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  position: absolute;
+  background-color: #ffffff;
+  width: 400px;
+  height: 50vh;
+  padding: 40px 0px;
+  top: 35%;
+  right: 50%;
+  transform: translate(50%, -50%);
+  border-radius: 5px;
+  box-shadow: 0 2.8px 2.2px rgb(0 0 0 / 3%), 0 6.7px 5.3px rgb(0 0 0 / 5%),
+    0 12.5px 10px rgb(0 0 0 / 6%), 0 22.3px 17.9px rgb(0 0 0 / 7%),
+    0 41.8px 33.4px rgb(0 0 0 / 9%), 0 100px 80px rgb(0 0 0 / 12%);
+  padding: 0px 25px;
+}
+
+.__iconLogin {
+  height: 50px;
+  width: 180px;
+}
+.bgCenter ._boxLogin button {
+  width: 100%;
+  padding: 5px;
+  border-radius: 5px;
+  border: none;
+  color: white;
+  font-weight: 600;
+  background-color: var(--main-color);
+  cursor: pointer;
+}
+
+.bgCenter ._boxLogin .__checkBoxTT {
+  margin: 0px 5px !important;
+  width: 10%;
+  height: 18px;
+}
+
+.forgot-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding: 0px 25px;
+  height: 315px;
+  position: relative;
+  animation: renderFromTop 0.3s ease;
+}
+
+@keyframes renderFromTop {
+  0% {
+    top: -30px;
+    opacity: 0.2;
+  }
+  100% {
+    top: 0px;
+    opacity: 1;
+  }
+}
+
+.forgot-form p {
+  text-align: left;
+  color: var(--text-color);
+  font-size: 12px;
+}
+
+.forgot-form .form {
+  width: 100% !important;
+}
+
+.forgotPassword {
+  cursor: pointer;
+}
+.forgotPassword:hover {
+  color: var(--main-color);
+}
+.Login input,
+.Login select {
+  display: block;
+  background-color: #f3f6f9;
+  box-sizing: border-box;
+  width: 100%;
+  border-radius: 10px;
+  border: none;
+  padding: 10px 15px;
+  margin-bottom: 10px !important;
+  font-size: 14px;
+  outline: none;
+}
